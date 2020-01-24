@@ -9,7 +9,7 @@
         <SortItem
           class="sort-property"
           v-for="(property, idx) in selectedProperties"
-          :key="idx"
+          :key="property.title"
           :index="idx"
           :sort-property="property"
           :allowed-properties="allowedProperties"
